@@ -5,13 +5,13 @@ IP: 162.55.220.72
 Port: 5005
 
 - EP_1
-- 
+ 
 ```
 Method: GET
 EndPoint: /get_method
 request url params: 
- name: str
- age: int
+name: str
+age: int
 
 response: 
 [
@@ -26,18 +26,18 @@ response:
 Method: POST
 EndPoint: /user_info_3
 request form data: 
- name: str
- age: int
- salary: int
+name: str
+age: int
+salary: int
 
 response: 
 {'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
-                     'u_salary_1_5_year': salary * 4}} ```
+                     'u_salary_1_5_year': salary * 4}} 
 
-
+```
 
 - EP_3
 
@@ -45,16 +45,17 @@ response:
 Method: GET
 EndPoint: /object_info_1
 request url params: 
- name: str
- age: int
- weight: int
+name: str
+age: int
+weight: int
 
 response: 
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
-          'daily_sleep': weight * 2.5}```
-
+          'daily_sleep': weight * 2.5}
+          
+```
 
 - EP_4
 
@@ -62,9 +63,9 @@ response:
 Method: GET
 EndPoint: /object_info_2
 request url params: 
- name: str
- age: int
- salary: int
+name: str
+age: int
+salary: int
 
 response: 
 {'start_qa_salary': salary,
@@ -75,18 +76,18 @@ response:
           'person': {'u_name': [user_name, salary, age],
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
-          }```
+          }
 
-
+```
 - EP_5
 
-
+```
 Method: GET
 EndPoint: /object_info_3
 request url params: 
- name: str
- age: int
- salary: int```
+name: str
+age: int
+salary: int
 
 response: 
 {'name': name,
@@ -99,6 +100,7 @@ response:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
+          
 ```
 
 - EP_6
@@ -114,11 +116,14 @@ request url params:
 response: 
 {'name': name,
           'age': int(age),
-          'salary': [salary, str(salary * 2), str(salary * 3)]}```
+          'salary': [salary, str(salary * 2), str(salary * 3)]}
+          
+ ```         
 
 
 - EP_7
 
+```
 Method: POST
 EndPoint: /user_info_2
 request form data: 
@@ -136,3 +141,4 @@ response:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
+```
