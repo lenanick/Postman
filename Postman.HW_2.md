@@ -13,7 +13,7 @@ http://162.55.220.72:5005/user_info_3
 3. Спарсить `response body` в json.
 4. Проверить, что `name` в ответе равно `name s request` (`name` вбить руками.)
 5. Проверить, что `age` в ответе равно `age s request` (`age` вбить руками.)
-6. Проверить, что `salary` в ответе равно `salary s request` `(salary` вбить руками.)
+6. Проверить, что `salary` в ответе равно `salary s request` (`salary` вбить руками.)
 7. Спарсить `request`.
 8. Проверить, что `name` в ответе равно `name s request` (`name` забрать из `request`.)
 9. Проверить, что `age` в ответе равно `age s request` (`age` забрать из `request`.)
