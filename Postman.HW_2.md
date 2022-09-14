@@ -82,3 +82,4 @@ http://162.55.220.72:5005/user_info_2
 19. Проверить, что в параметре `person`, 1-й элемент из `u_name` равен `salary` из `request` (`salary` забрать из `request`.)
 20. Проверить, что что параметр `u_age` равен `age из request` (`age` забрать из `request`.)
 21. Проверить, что параметр `u_salary_5_years` равен `salary*4.2` из `request` (`salary` забрать из `request`.)
+
